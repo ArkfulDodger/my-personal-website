@@ -1,9 +1,13 @@
 body {
     background: rgb(94, 94, 94);
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #headshot img {
     width: 100%;
+    overflow: hidden;
 }
 
 #featuredvisual img {
@@ -13,14 +17,19 @@ body {
     margin-right: auto;
 }
 
+#nameblurb, #featured {
+    text-align: center;
+}
+
 .thumbnail {
     width: 100%;
     min-width: 250px;
     max-width: 350px;
     display: inline-block;
+    cursor: pointer;
 }
 
-#gamesviewport img {
+#infographic {
     width: 100%;
     max-width: 500px;
     display: block;
@@ -29,11 +38,11 @@ body {
 }
 
 /* For Dev Purposes, helps visualize Div elements */
-div {
+/* div {
     border: 2px dotted black;
     padding: 5px;
     margin: 5px;
-}
+} */
 
 /* allows a div to contain other divs with relative sizing/positioning */
 .flex-container {
