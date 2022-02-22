@@ -3,5 +3,24 @@ body {
 }
 
 #headshot img {
-    max-width: 50%;
+    width: 100%;
+}
+
+/* For Dev Purposes, helps visualize Div elements */
+div {
+    border: 2px dotted black;
+}
+
+/* allows a div to contain other divs with relative sizing/positioning */
+.flex-container {
+    display: flex;
+}
+
+/* allows divs contained by an outer div to be set side by side */
+.flex-40 {
+    flex: 40;
+}
+
+.flex-60 {
+    flex: 60;
 }
