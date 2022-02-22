@@ -6,9 +6,33 @@ body {
     width: 100%;
 }
 
+#featuredvisual img {
+    max-width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.thumbnail {
+    width: 100%;
+    min-width: 250px;
+    max-width: 350px;
+    display: inline-block;
+}
+
+#gamesviewport img {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* For Dev Purposes, helps visualize Div elements */
 div {
     border: 2px dotted black;
+    padding: 5px;
+    margin: 5px;
 }
 
 /* allows a div to contain other divs with relative sizing/positioning */
